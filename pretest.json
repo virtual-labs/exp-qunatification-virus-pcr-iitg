@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which type of genetic material can be detected using real-time PCR for viral analysis?",
+      "answers": {
+        "a": "Only DNA",
+        "b": "Only RNA",
+        "c": "Both DNA and RNA",
+        "d": "Only proteins"
+      },
+      "explanations": {
+        "a": "Real-time PCR can also detect RNA after converting it to cDNA.",
+        "b": "Real-time PCR can also detect DNA directly.",
+        "c": "Both DNA and RNA.",
+        "d": "PCR amplifies nucleic acids, not proteins."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary function of primers in PCR?",
+      "answers": {
+        "a": "To break DNA strands",
+        "b": "To initiate DNA synthesis at specific target sites",
+        "c": "To detect fluorescence",
+        "d": "To cool the reaction mixture"
+      },
+      "explanations": {
+        "a": "Strands are separated by high temperature, not primers.",
+        "b": "To initiate DNA synthesis at specific target sites.",
+        "c": "Fluorescence is detected via dyes or labeled probes, not primers.",
+        "d": "Primers do not affect the temperature of the reaction mixture."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In PCR, the denaturation step is usually carried out to:",
+      "answers": {
+        "a": "Bind primers to DNA",
+        "b": "Separate double-stranded DNA into single strands",
+        "c": "Synthesize new DNA strands",
+        "d": "Detect fluorescence"
+      },
+      "explanations": {
+        "a": "Primer binding occurs during the annealing step.",
+        "b": "Separate double-stranded DNA into single strands.",
+        "c": "Synthesis occurs during the extension/elongation step.",
+        "d": "Fluorescence data is recorded during extension/annealing, not denaturation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which enzyme is responsible for synthesizing DNA during PCR?",
+      "answers": {
+        "a": "Reverse transcriptase",
+        "b": "DNA ligase",
+        "c": "DNA polymerase",
+        "d": "Helicase"
+      },
+      "explanations": {
+        "a": "Reverse transcriptase converts RNA to cDNA, but Taq DNA polymerase replicates DNA during cycling.",
+        "b": "Ligase seals nicks in the sugar-phosphate backbone, it doesn't synthesize DNA.",
+        "c": "DNA polymerase.",
+        "d": "Helicase unwinds DNA in cells, but PCR uses heat denaturation instead."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In case of RNA viruses, why is reverse transcription necessary before qPCR?",
+      "answers": {
+        "a": "To destroy RNA",
+        "b": "To convert RNA into cDNA",
+        "c": "To increase temperature",
+        "d": "To add primers"
+      },
+      "explanations": {
+        "a": "We want to detect the RNA sequence, not destroy it.",
+        "b": "To convert RNA into cDNA.",
+        "c": "Reverse transcription happens at moderate temperatures (e.g. 42-50 °C).",
+        "d": "Primers bind to the template; reverse transcription is needed because DNA polymerase requires a DNA template."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is commonly included in a qPCR reaction mixture?",
+      "answers": {
+        "a": "Agarose gel",
+        "b": "Ethanol and buffer only",
+        "c": "Staining dye only",
+        "d": "Primers, nucleotides, polymerase, and template"
+      },
+      "explanations": {
+        "a": "Agarose gel is used downstream to run conventional PCR products.",
+        "b": "Ethanol is an inhibitor of PCR and is not added to the reaction mixture.",
+        "c": "A fluorescent dye is used, but all other components like primers are also required.",
+        "d": "Primers, nucleotides, polymerase, and template."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Real-time PCR differs from conventional PCR because it:",
+      "answers": {
+        "a": "Uses no enzyme",
+        "b": "Detects amplified product during each cycle",
+        "c": "Requires no primers",
+        "d": "Uses lower temperature only"
+      },
+      "explanations": {
+        "a": "qPCR uses DNA polymerase just like conventional PCR.",
+        "b": "Detects amplified product during each cycle.",
+        "c": "Both qPCR and conventional PCR require primers.",
+        "d": "Thermal cycling temperatures are highly similar between both techniques."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which stage of PCR allows primers to attach to the template DNA?",
+      "answers": {
+        "a": "Denaturation",
+        "b": "Annealing",
+        "c": "Extension",
+        "d": "Cooling"
+      },
+      "explanations": {
+        "a": "Denaturation separates DNA strands at high heat.",
+        "b": "Annealing.",
+        "c": "Extension is the phase where DNA polymerase builds the complementary strand.",
+        "d": "Cooling is not a formal step of the PCR cycle; primer binding occurs specifically at the annealing temperature."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of a fluorescent dye or probe in qPCR?",
+      "answers": {
+        "a": "To digest DNA",
+        "b": "To reduce temperature",
+        "c": "To visualize amplification in real time",
+        "d": "To separate DNA strands"
+      },
+      "explanations": {
+        "a": "Dyes do not degrade or digest DNA.",
+        "b": "Fluorescent molecules do not alter reaction temperature.",
+        "c": "To visualize amplification in real time.",
+        "d": "Separation of strands is achieved thermally."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which factor is most important for obtaining accurate qPCR results?",
+      "answers": {
+        "a": "Proper controls and contamination-free setup",
+        "b": "Large tube size",
+        "c": "High room temperature",
+        "d": "Use of colored tubes"
+      },
+      "explanations": {
+        "a": "Proper controls and contamination-free setup.",
+        "b": "Reaction volume and tube size are minimized to improve thermal heat transfer.",
+        "c": "Room temperature should be stable and comfortable, it does not dictate internal cycling conditions.",
+        "d": "Tubes are typically transparent or white to allow optical fluorescence detection."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

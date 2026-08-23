@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The main advantage of real-time PCR over conventional PCR is that it:",
+      "answers": {
+        "a": "Allows real-time monitoring of amplification",
+        "b": "Detects amplified DNA only at the end",
+        "c": "Requires less time for sample preparation",
+        "d": "Uses agarose gel electrophoresis"
+      },
+      "explanations": {
+        "a": "Allows real-time monitoring of amplification.",
+        "b": "Conventional PCR detects the product at the end of the reaction.",
+        "c": "Sample preparation time is similar for both techniques.",
+        "d": "Conventional PCR uses agarose gel electrophoresis; qPCR uses optical detection instead."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If amplification occurs in the NTC after 35 cycles, the most appropriate conclusion is:",
+      "answers": {
+        "a": "Viral load is extremely low",
+        "b": "Reaction efficiency is high",
+        "c": "Late contamination or primer-dimer formation",
+        "d": "Instrument malfunction"
+      },
+      "explanations": {
+        "a": "NTC contains no template, so amplification should not occur at all.",
+        "b": "High efficiency does not explain amplification in a negative control.",
+        "c": "Late contamination or primer-dimer formation.",
+        "d": "Optical readings are functioning, indicating it is a biochemical issue, not a machine failure."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The Ct value in real-time PCR represents the following: ",
+      "answers": {
+        "a": "Total number of PCR cycles",
+        "b": "The cycle at which fluorescence crosses the threshold",
+        "c": "Amount of primers used",
+        "d": "Final concentration of DNA"
+      },
+      "explanations": {
+        "a": "Total cycles is the programmed duration (e.g. 40 cycles), not Ct.",
+        "b": "The cycle at which fluorescence crosses the threshold.",
+        "c": "Ct is independent of the direct amount of primers used.",
+        "d": "Ct relates to the initial template concentration, not the plateau concentration."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A lower Ct value indicates:",
+      "answers": {
+        "a": "Lower viral load",
+        "b": "Poor amplification",
+        "c": "Higher viral concentration",
+        "d": "PCR inhibition"
+      },
+      "explanations": {
+        "a": "Lower Ct means the signal was detected earlier, indicating more starting template.",
+        "b": "Early crossing indicates highly successful and rapid amplification.",
+        "c": "Higher viral concentration.",
+        "d": "Inhibition would delay amplification, resulting in a higher Ct value."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Reverse transcription is required in real-time PCR when the virus contains ",
+      "answers": {
+        "a": "Double-stranded DNA",
+        "b": "Single-stranded DNA",
+        "c": "Protein coat only",
+        "d": "RNA as genetic material"
+      },
+      "explanations": {
+        "a": "DNA can be directly amplified by DNA polymerase.",
+        "b": "Single-stranded DNA can be directly converted by DNA polymerase during the first cycle.",
+        "c": "Proteins are not target templates for PCR.",
+        "d": "RNA as genetic material."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which enzyme is used to convert viral RNA into cDNA?",
+      "answers": {
+        "a": "Reverse transcriptase",
+        "b": "RNA polymerase",
+        "c": "DNA polymerase",
+        "d": "Restriction enzyme"
+      },
+      "explanations": {
+        "a": "Reverse transcriptase.",
+        "b": "RNA polymerase transcribes DNA into RNA.",
+        "c": "DNA polymerase replicates DNA templates.",
+        "d": "Restriction enzymes cut DNA at specific palindromic sequences."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The standard curve in qPCR is used to:",
+      "answers": {
+        "a": "Detect contamination",
+        "b": "Identify primer specificity",
+        "c": "Calculate viral quantity in unknown samples",
+        "d": "Increase fluorescence intensity"
+      },
+      "explanations": {
+        "a": "Negative controls are used to detect contamination.",
+        "b": "Melting curve analysis is used to identify primer specificity.",
+        "c": "Calculate viral quantity in unknown samples.",
+        "d": "A standard curve does not affect the physical fluorescence output of the reactions."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "During which PCR step does primer binding occur?",
+      "answers": {
+        "a": "Denaturation",
+        "b": "Extension",
+        "c": "Cooling",
+        "d": "Annealing"
+      },
+      "explanations": {
+        "a": "Denaturation melts the double-stranded DNA.",
+        "b": "Extension is the elongation phase where DNA polymerase synthesizes DNA.",
+        "c": "Primer binding occurs specifically during the annealing step at a regulated temperature.",
+        "d": "Annealing."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common application of viral quantification by real-time PCR?",
+      "answers": {
+        "a": "Protein purification",
+        "b": "Viral load monitoring in infections",
+        "c": "Microscopic observation of viruses",
+        "d": "Vaccine preparation"
+      },
+      "explanations": {
+        "a": "Chromatography is used for protein purification.",
+        "b": "Viral load monitoring in infections.",
+        "c": "Electron microscopy is used for observing viruses physically.",
+        "d": "Vaccine preparation involves inactivation or attenuating strains, not molecular qPCR quantification itself."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Fluorescence intensity during real-time PCR is directly proportional to:",
+      "answers": {
+        "a": "Number of PCR cycles",
+        "b": "Amount of primers added",
+        "c": "Quantity of amplified nucleic acid",
+        "d": "Size of PCR tubes"
+      },
+      "explanations": {
+        "a": "Intensity changes cyclically but specifically reflects product concentration.",
+        "b": "Primers are in excess and their raw amount does not determine transient fluorescence intensity.",
+        "c": "Quantity of amplified nucleic acid.",
+        "d": "Tube size has no effect on fluorescence quantum yield."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
