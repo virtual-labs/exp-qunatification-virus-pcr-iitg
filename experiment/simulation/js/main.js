@@ -2,20 +2,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4-step qPCR Quantification sequence configuration
     const steps = [
         {
-            src: './images/Step1.mp4',
-            caption: 'Step 1: Biological samples (blood, serum, swabs, supernatant) are collected aseptically, labelled, and stored at -20 °C to prevent degradation.'
+            src: './images/Step1qpcr.mp4',
+            caption: 'Step 1: Biological samples stored at -20 °C ,then Viral nucleic acid is isolated using phenol-chloroform extraction or commercial spin column kits.'
         },
         {
-            src: './images/Step2.mp4',
-            caption: 'Step 2: Viral nucleic acid is isolated using phenol-chloroform extraction or commercial spin column kits, then quantified and stored.'
+            src: './images/Step2qpcr.mp4',
+            caption: 'Step 2: Prepare the qPCR reaction mixture (master mix containing template, primers, fluorescent dye/probe, Taq polymerase, and dNTPs).'
         },
         {
-            src: './images/Step3.mp4',
-            caption: 'Step 3: For RNA viruses, reverse transcription is performed by incubating RNA with reverse transcriptase, primers, and dNTPs to synthesize cDNA.'
+            src: './images/Step3qpcr.mp4',
+            caption: 'Step 3: add the master mix to the pcr tubes.'
         },
         {
-            src: './images/Step4.mp4',
-            caption: 'Step 4: Prepare the qPCR reaction mixture (master mix containing template, primers, fluorescent dye/probe, Taq polymerase, and dNTPs).'
+            src: './images/Step4qpcr.mp4',
+            caption: 'Step 4: Place the tubes in the thermocycler and run the cycle.'
         }
     ];
 
